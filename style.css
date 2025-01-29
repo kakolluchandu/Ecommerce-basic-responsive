@@ -1,0 +1,29 @@
+*{
+    border: 1px solid red;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+.navbar{
+    background-color: red;
+}
+.navbar-brand{
+    width: 10%;
+}
+.nav-link{
+    color: white;
+    font-size: bold;
+
+}
+.fa-bars{
+    color: white;
+    font-weight: bold;
+}
+
+#home{
+    background-image: url('https://img.freepik.com/free-vector/cute-fruity-background_53876-93589.jpg?t=st=1738144628~exp=1738148228~hmac=ed72f1305894c295c4fc6d24759a03bba5862ff05f59228fcd4330b44ded4b18&w=996');
+    width: 100vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
