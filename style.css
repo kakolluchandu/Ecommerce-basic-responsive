@@ -1,5 +1,5 @@
 *{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0%;
     box-sizing: border-box;
     
@@ -20,10 +20,77 @@
     font-weight: bold;
 }
 
+.heading{
+    color: white;
+    font-size: 50px;
+    text-shadow: 1px 2px 3px black;
+}
+
 #home{
     background-image: url('https://img.freepik.com/free-vector/cute-fruity-background_53876-93589.jpg?t=st=1738144628~exp=1738148228~hmac=ed72f1305894c295c4fc6d24759a03bba5862ff05f59228fcd4330b44ded4b18&w=996');
     width: 100vw;
     height: 70vh;
     background-size: cover;
     background-position: center;
+}
+
+/* about  */
+.aboutcontent{
+    background-color: red;
+    padding: 3%;
+
+}
+
+.aboutcontent h1{
+    color: white;
+}
+
+.aboutcontent p{
+    color: white;
+    line-height: 35px;
+    text-align: left;
+
+}
+
+/* carousel */
+.carousel-item img{
+    aspect-ratio: 3/2;
+}
+
+#about{
+    margin-bottom: 5%;
+}
+
+/* products section */
+#product{
+    margin: 3%;
+}
+.card-body h5{
+    color: green;
+}
+.card-body p{
+    font-weight: bold;
+    color: red;
+}
+.card img{
+    aspect-ratio: 3/2;
+}
+
+
+/* payment */
+.input-group-text{
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    text-shadow: 1px 2px 3px solid black;
+}
+.fa-cc-mastercard{
+    color: orange;
+    font-size: 30px;
+    margin-top: 2%;
+}
+.fa-cc-visa{
+    color: skyblue;
+    font-size: 30px;
+    margin-top: 2%;
 }
